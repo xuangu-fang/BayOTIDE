@@ -1,0 +1,14 @@
+
+baseline/GP-VAE/GP-VAE-master/data/
+baseline/GP-VAE/GP-VAE-master/models/
+baseline/CSBI-fang/data/
+baseline/CSBI/
+
+data/simu_scalable/D_1000_T_1000.npy
+data/simu_scalable/D_2000_T_1000.npy
+data/simu_scalable/D_3000_T_1000.npy
+data/simu_scalable/D_4000_T_1000.npy
+
+data/simu_scalable/D_1000_T_2000.npy
+data/simu_scalable/D_1000_T_3000.npy
+data/simu_scalable/D_1000_T_4000.npy
