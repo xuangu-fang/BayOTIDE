@@ -1,3 +1,0 @@
-before smooth, test_rmse = 339.08, test_MAE= 41.26, test_CRPS=179.076
-after smooth, test_rmse = 48.14, test_MAE= 31.36, test_CRPS=178.896
-
