@@ -1,7 +1,4 @@
 # BayOTIDE
-Official code for paper: BayOTIDE-Bayesian Online Multivariate Time Series Imputation with Functional Decomposition (ICML 2024)
-
-# BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition
 
 This authors' official PyTorch implementation for paper:"**Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**"[[OpenReview]](https://openreview.net/forum?id=aGBpiEcB8z&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2024%2FConference%2FAuthors%23your-submissions))[[Arxiv](https://arxiv.org/abs/2308.14906)] (ICML 2024).
 
@@ -11,7 +8,7 @@ This authors' official PyTorch implementation for paper:"**Bayesian Online Multi
 
 <!-- <!-- <div align=center> <img src="./figs/FunBat-eq.PNG" width = 100%/> </div> -->
 
-<div align=center> <img src="./notebook/figs/fig_simu_impute.PNG" width = 100%/> </div> -->
+<div align=center> <img src="notebook/figs/fig_simu_impute.png" width = 100%/> </div> -->
 
 ---
 
@@ -46,11 +43,13 @@ If you wanna customize your own data to play the model, please follow the [proce
 
 Please cite our work if you would like it
 ```
-@article{fang2023functional,
-  title={Functional Bayesian Tucker Decomposition for Continuous-indexed Tensor Data},
-  author={Fang, Shikai and Yu, Xin and Wang, Zheng and Li, Shibo and Kirby, Mike and Zhe, Shandian},
-  journal={arXiv preprint arXiv:2311.04829},
-  year={2023}
+@misc{fang2023bayotide,
+      title={BayOTIDE: Bayesian Online Multivariate Time series Imputation with functional decomposition}, 
+      author={Shikai Fang and Qingsong Wen and Yingtao Luo and Shandian Zhe and Liang Sun},
+      year={2023},
+      eprint={2308.14906},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
 
