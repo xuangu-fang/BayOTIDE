@@ -1,5 +1,7 @@
 # BayOTIDE
 
+(This repo is still on update)
+
 This authors' official PyTorch implementation for paper:"**Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**"[[OpenReview]](https://openreview.net/forum?id=aGBpiEcB8z&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2024%2FConference%2FAuthors%23your-submissions))[[Arxiv](https://arxiv.org/abs/2308.14906)] (ICML 2024).
 
 ---
@@ -8,7 +10,7 @@ This authors' official PyTorch implementation for paper:"**Bayesian Online Multi
 
 <!-- <!-- <div align=center> <img src="./figs/FunBat-eq.PNG" width = 100%/> </div> -->
 
-<div align=center> <img src="notebook/figs/fig_simu_impute.png" width = 100%/> </div> -->
+<div align=center> <img src="notebook/figs/fig_simu_impute.png" width = 100%/> </div>
 
 ---
 
@@ -33,7 +35,7 @@ The project is mainly built with **pytorch 2.3.0** under **python 3.10**. The de
 
 ## Data
 
-We offer the [raw data](https://drive.google.com/drive/folders/1DQJFZ9IkKw9pzr_vBSCLnrzqn4dp4kBd?usp=drive_link), [processed scripts](https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition/tree/master/data/process_script), and processed data([Beijing](https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition/tree/master/data/beijing),[US-TEMP](https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition/tree/master/data/US-Temp)) for all four datasets used in paper. The code for generating the synthetic data is also provided in the [data]( https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition/tree/master/data/synthetic) folder.
+We offer the [raw data](https://drive.google.com/drive/folders/1DQJFZ9IkKw9pzr_vBSCLnrzqn4dp4kBd?usp=drive_link), [processed scripts](https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition/tree/master/data/process_script), and processed data([Beijing](https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition/tree/master/data/beijing), for all three datasets used in paper. The code for generating the synthetic data is also provided in the [data]( https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition/tree/master/data/synthetic) folder.
 
 
 If you wanna customize your own data to play the model, please follow the [process_script](https://github.com/xuangu-fang/BayOTIDE/tree/master/data/process_script).
