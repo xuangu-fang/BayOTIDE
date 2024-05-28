@@ -44,7 +44,6 @@ If you wanna customize your own data to play the model, please follow the [proce
 
 ## Citation
 
-
 Please cite our work if you would like it
 ```
 @article{fang2023functional,
