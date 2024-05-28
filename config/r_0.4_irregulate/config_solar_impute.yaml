@@ -1,0 +1,44 @@
+# config: hyper paras
+
+device: 'cpu' #"cpu" #cuda'
+data_path: "/data/fang/BayTIDE_data/solar_impute_r_0.4_irregulate.npy"
+R: 0.4 # ratio of test
+K_trend: 50 # number of trend factors
+K_season: 1 # number of seasonal factors (frequency in the data)
+n_season: 5 # for each season/freq, we need n component to approximate it as a GP-SDE
+
+K_bias: 0 # number of bias factors
+
+a0: 1
+b0: 1
+v: 1
+fold: 1 # number of folds(random split) and take average,min:1,max:5'
+fix_int: True
+
+time_scale: 1 # time scale of the time-step, 
+
+
+kernel:
+  kernel_trend:
+    type: "Matern_23" # GP kernel type, Matern_21 or Matern_23"
+    lengthscale: 0.001 # lengthscale of kernel= torch.tensor(args.ls)
+    variance: 1 # var of kernel
+    noise: 1 # noise var of KF observation, will not be used actually
+
+  kernel_season:
+    type: "exp-periodic"
+    freq_list:
+      - 10 # pi/84(0.0374), period from TIDER paper
+    lengthscale_list:
+      - 0.5
+    noise: 1 # noise var of KF observation, will not be used actually
+
+
+DAMPING_U: 0.2
+DAMPING_tau: 0.05
+EVALU_T: 10000
+DAMPING_W: 0.2
+INNER_ITER: 2
+THRE: 1.0e-4 # therethold of CEP innner iteration
+CEP_UPDATE_INNNER_MODE: False # whether do CEP mag_approx + post_update innner per mode, if false, we do it seperately after go through all mode
+
