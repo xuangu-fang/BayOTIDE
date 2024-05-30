@@ -27,7 +27,7 @@ The project is mainly built with **pytorch 2.3.0** under **python 3.10**. The de
 ## Instructions:
 1. Clone this repository.
 2. To play with the model quickly, we offer several notebooks at `notebook`(on synthetic & real data)
-3. To run the real-world datasets with scripts, see `run_script.sh` for example.
+3. To run the real-world datasets with scripts, see `run_script.sh` for example. (download the processed data of *Solar-Power* and *Uber-Move*  from the link below first)
 4. To tune the (hyper)parametrs of model, modify the `.yaml` files in `config` folder
 5. To apply the model on your own dataset, please follow the [process_script](https://github.com/xuangu-fang/BayOTIDE/tree/master/data/process_script) to process the raw data into appropriate format.
 6. GPU choice: the models are run on CPU by default, but you can change the device to CPU by modifying the `device` as `cpu` of `.yaml` files in the `config` folder.
