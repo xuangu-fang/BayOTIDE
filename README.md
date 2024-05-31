@@ -1,11 +1,26 @@
-# BayOTIDE
+# (ICML 2024) BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition
 
 (This repo is still on update)
 
 This authors' official PyTorch implementation for paper:"**Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**"[[OpenReview]](https://openreview.net/forum?id=aGBpiEcB8z&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2024%2FConference%2FAuthors%23your-submissions))[[Arxiv](https://arxiv.org/abs/2308.14906)] (ICML 2024).
 
+
+## Citing BayOTIDE
+> 🌟 If you find this resource helpful, please consider to star this repository and cite our research:
+
+```tex
+@inproceedings{cheng2024robusttsf,
+      title={BayOTIDE: Bayesian Online Multivariate Time series Imputation with functional decomposition}, 
+      author={Shikai Fang and Qingsong Wen and Yingtao Luo and Shandian Zhe and Liang Sun},
+      booktitle={International Conference on Machine Learning (ICML 2024)},
+      year={2024}
+}
+```
+In case of any questions, bugs, suggestions or improvements, please feel free to open an issue.
+
 ---
-#### Key Idea:  Decompose Multivariate Time as Latent Functions Factors + Online Filtering
+## Key Idea
+Decompose Multivariate Time as Latent Functions Factors + Online Filtering
 
 
 <!-- <!-- <div align=center> <img src="./figs/FunBat-eq.PNG" width = 100%/> </div> -->
@@ -50,17 +65,13 @@ The code for generating the synthetic data is also provided in the [notebook]( h
 If you wanna customize your own data to play the model, please follow the notebooks in `data/process_script/`.
 
 
-## Citation
+## Further Reading
+1, Deep Learning for Multivariate Time Series Imputation: A Survey, in *arXiv* 2024. 
+[\[paper\]](https://arxiv.org/abs/2402.04059) [\[Website\]](https://github.com/wenjiedu/awesome_imputation)
 
-Please cite our work if you would like it
-```
-@misc{fang2023bayotide,
-      title={BayOTIDE: Bayesian Online Multivariate Time series Imputation with functional decomposition}, 
-      author={Shikai Fang and Qingsong Wen and Yingtao Luo and Shandian Zhe and Liang Sun},
-      year={2023},
-      eprint={2308.14906},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
+2, AI for Time Series (AI4TS) Papers, Tutorials, and Surveys. 
+[\[Website\]](https://github.com/qingsongedu/awesome-AI-for-time-series-papers)
+
+
+ 
 
