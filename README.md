@@ -9,7 +9,7 @@ This authors' official PyTorch implementation for paper:"**Bayesian Online Multi
 > 🌟 If you find this resource helpful, please consider to star this repository and cite our research:
 
 ```tex
-@inproceedings{cheng2024robusttsf,
+@inproceedings{fang2024tsi,
       title={BayOTIDE: Bayesian Online Multivariate Time series Imputation with functional decomposition}, 
       author={Shikai Fang and Qingsong Wen and Yingtao Luo and Shandian Zhe and Liang Sun},
       booktitle={International Conference on Machine Learning (ICML 2024)},
