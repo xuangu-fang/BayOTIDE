@@ -1,4 +1,4 @@
-# (ICML 2024) BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition
+# (ICML 2024 Spotlight) BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition
 
 (This repo is still on update)
 
