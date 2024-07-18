@@ -1,8 +1,8 @@
 # (ICML 2024 Spotlight) BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition
-
+<div align=center> <img src="illu_fig.png" width = 100%/> </div>
 (This repo is still on update)
 
-This authors' official PyTorch implementation for paper:"**Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**"[[OpenReview]](https://openreview.net/forum?id=aGBpiEcB8z&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2024%2FConference%2FAuthors%23your-submissions))[[Arxiv](https://arxiv.org/abs/2308.14906)] (ICML 2024).
+This authors' official PyTorch implementation for paper:"**Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**"[[OpenReview]](https://openreview.net/forum?id=aGBpiEcB8z&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2024%2FConference%2FAuthors%23your-submissions))[[Arxiv](https://arxiv.org/abs/2308.14906)] [[知乎](https://zhuanlan.zhihu.com/p/709630460)] (ICML 2024).
 
 
 ## Citing BayOTIDE
